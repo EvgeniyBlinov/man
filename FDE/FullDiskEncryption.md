@@ -10,6 +10,20 @@
 rsync -avxHAX /mnt/linux /target
 ```
 
+### Chroot
+
+```
+(
+    cd /target
+    mount -t proc /proc ./proc
+    mount -o bind /sys  ./sys
+    mount -o bind /dev  ./dev
+    mount --make-rslave ./sys
+    mount --make-rslave ./dev
+    cd ..
+)
+```
+
 ### Health checks in new chroot linux
 
 - /etc/fstab
