@@ -4,6 +4,14 @@
 
 2020-05-31 - GRUB does not support LUKS2. Use LUKS1(`--type luks1`) on GRUB patition.
 
+## Arch linux  FDE
+
+[https://gist.github.com/huntrar/e42aee630bee3295b2c671d098c81268](https://gist.github.com/huntrar/e42aee630bee3295b2c671d098c81268) - Arch linux FDE
+
+## Luks notes
+
+[https://unix.stackexchange.com/questions/690138/how-to-modify-iter-time-on-a-existing-luks-partition](https://unix.stackexchange.com/questions/690138/how-to-modify-iter-time-on-a-existing-luks-partition)
+
 ### Copy current linux
 
 ```
